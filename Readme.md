@@ -6,12 +6,14 @@
 
 # Usage
 This is a very rough start... I needed to get something quick, and will hopefully be able to clean it up soon.
-`pyvenv3 .
+```
+pyvenv3 .
 pip install -r Requirements.txt
+cd yofx
 yofx/yofx.py -f filename totext
-`
+```
 
-# Example
+# text Ouput Example
 ```
 account number: 1062739485
 account routing_number: 00202899
@@ -29,8 +31,16 @@ e0177968e866407e29db40b4a | 2016-01-30 08:00:00  |   -200.00 | BILL PMT - INTERN
 8c42a99f2faf0570422e0e440 | 2011-03-11 07:40:00  |   5272.00 | CHEQUE DEPOSIT            | ARMY SALARY COLTER STEVENS                                |          | None |     | credit |
 ```
 
+# Resources
+* ofxparse: Python library to parse ofx files, which is the main dependencie for yofx at writing time:
+https://github.com/jseutter/ofxparse
+* http://www.ofx.org/ (ofx specs etc...)
+
+
+
 # TODO / ideas
-* pick/add license
-* gui (tk?)
-* Use xml.etree and eliminate dependencies?
+- [] pick/add license
+- [] gui (tk?)
+- [] Use xml.etree and eliminate dependencies?
+- [] make a zip containing dependencies available ???
 
