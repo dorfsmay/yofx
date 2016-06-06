@@ -29,7 +29,7 @@ e0177968e866407e29db40b4a | 2016-01-30 08:00:00  |   -200.00 | BILL PMT - INTERN
 8c42a99f2faf0570422e0e440 | 2011-03-11 07:40:00  |   5272.00 | CHEQUE DEPOSIT            | ARMY SALARY COLTER STEVENS
 ```
 
-h1. TODO / ideas
+# TODO / ideas
 * pick/add license
 * gui (tk?)
 * Use xml.etree and eliminate dependencies?
