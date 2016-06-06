@@ -24,9 +24,9 @@ c4f606d775c7f99d172548df4 | 2016-01-31 08:00:00  |      0.99 | DEPOSIT INTEREST 
 0ae540a5e5fd3cb5cb299097b | 2016-01-31 08:00:00  |    -10.00 | SERVICE CHARGE            |                                                           |          | None |     |    fee |
 f62e5bcda4fae4f82370da0c6 | 2016-01-31 08:00:00  |    -22.00 | WOODGROVE-TELEBANKING FEE |                                                           |          | None |     |  debit |
 e0177968e866407e29db40b4a | 2016-01-30 08:00:00  |   -200.00 | BILL PMT - INTERNET       | SOUTH SHORE LINE              Confirmation # 000009739812 |          | None |     |  debit |
-8c42a99f2faf0570422e0e440 | 2016-01-21 08:00:00  |   1260.00 | CHEQUE DEPOSIT            | W/ THANKS HANNON FULLER                                   |          | None |     |  debit |
+8c42a99f2faf0570422e0e440 | 2016-01-21 08:00:00  |   1260.00 | CHEQUE DEPOSIT            | W/ THANKS HANNON FULLER                                   |          | None |     | credit |
 83ac309ea37fd05775b107d09 | 2035-01-18 08:00:00  | -98765.43 | BILL PMT - INTERNET       | LUNAR INDUSTRIES  RESCUE MISS Confirmation # 000000378319 |          | None |     |  debit |
-8c42a99f2faf0570422e0e440 | 2011-03-11 07:40:00  |   5272.00 | CHEQUE DEPOSIT            | ARMY SALARY COLTER STEVENS
+8c42a99f2faf0570422e0e440 | 2011-03-11 07:40:00  |   5272.00 | CHEQUE DEPOSIT            | ARMY SALARY COLTER STEVENS                                |          | None |     | credit |
 ```
 
 # TODO / ideas
