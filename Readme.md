@@ -1,18 +1,19 @@
 
-h1. Tool for OFX files
+# Tool for OFX files
 * converts to onscreen tabular text format
-* *will* convert to csv
-* *will* build a gui where data can be ordered by field etc...
+* *convert to csv* (not yet implemented)
+* *build a gui where data can be ordered by field etc...* (not yet implemented)
 
-h1. Usage
+# Usage
 This is a very rough start... I needed to get something quick, and will hopefully be able to clean it up soon.
 `pyvenv3 .
 pip install -r Requirements.txt
 yofx/yofx.py -f filename totext
 `
 
-h1. Example
-` account number: 1062739485
+# Example
+```
+account number: 1062739485
 account routing_number: 00202899
 start_date: 1937-04-01 06:00:00
 end_date: 2024-03-31 17:59:59
@@ -26,7 +27,7 @@ e0177968e866407e29db40b4a | 2016-01-30 08:00:00  |   -200.00 | BILL PMT - INTERN
 8c42a99f2faf0570422e0e440 | 2016-01-21 08:00:00  |   1260.00 | CHEQUE DEPOSIT            | W/ THANKS HANNON FULLER                                   |          | None |     |  debit |
 83ac309ea37fd05775b107d09 | 2035-01-18 08:00:00  | -98765.43 | BILL PMT - INTERNET       | LUNAR INDUSTRIES  RESCUE MISS Confirmation # 000000378319 |          | None |     |  debit |
 8c42a99f2faf0570422e0e440 | 2011-03-11 07:40:00  |   5272.00 | CHEQUE DEPOSIT            | ARMY SALARY COLTER STEVENS
-`
+```
 
 h1. TODO / ideas
 * pick/add license
